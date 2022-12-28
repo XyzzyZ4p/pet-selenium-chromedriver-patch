@@ -23,6 +23,13 @@ Introduction
 ``Selenium chrome-webdriver patch`` is an patch covering selenium webdriver from detecting, inspired by project of
 ultrafunkamsterdam (see `here <https://github.com/ultrafunkamsterdam/undetected-chromedriver>`_).
 
+
+Build
+=====
+
+    poetry build
+
+
 Usage
 =====
 

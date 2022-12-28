@@ -22,16 +22,22 @@ Selenium chrome-webdriver patch covering it from detecting.
 `Selenium chrome-webdriver patch` is an patch covering selenium webdriver from detecting, inspired by project of
 ultrafunkamsterdam (see [here](https://github.com/ultrafunkamsterdam/undetected-chromedriver)).
 
+# Build
+
+> poetry build
+
 # Usage
 
-    usage: python3 -m selenium_chromedriver_patch [-h] [-s] driverpath
+```default
+usage: python3 -m selenium_chromedriver_patch [-h] [-s] driverpath
 
-    positional arguments:
-      driverpath  Path to selenium chrome webdriver
+positional arguments:
+  driverpath  Path to selenium chrome webdriver
 
-    options:
-      -h, --help  show this help message and exit
-      -s          Silent mode
+options:
+  -h, --help  show this help message and exit
+  -s          Silent mode
+```
 
 ## patcher
 

@@ -21,9 +21,9 @@ extensions = ['sphinx.ext.autodoc', 'sphinx.ext.coverage', 'sphinx_markdown_buil
 
 templates_path = ['_templates']
 
-exclude_patterns = []
+# exclude_patterns = []
 # For markdown
-# exclude_patterns = ['build/*']
+exclude_patterns = ['build/*']
 
 
 # -- Options for HTML output -------------------------------------------------
